@@ -1,0 +1,10 @@
+<div *ngFor="let jokes of joke" class="table-borderless">
+    <div class="lead">
+        <h2>{{jokes["setup"]}}</h2>
+        <h3>{{jokes["punchline"]}}</h3>
+    </div>
+    <br>
+    <div class="row">Need Another Joke?</div>
+</div>
+
+<div class="btn btn-info" onClick="history.go(0)">click me</div>
